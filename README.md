@@ -47,12 +47,12 @@ To run this project, you need to have **Ollama** running locally. You can choose
 3. Run the App:
    ```bash
    dotnet run
-   
+
 ---
 ## 📝 Example Code
-The implementation focuses on simplicity and readability, using the IChatClient interface:
-    ```csharp
+The implementation focuses on simplicity and readability, using the IChatClient interface
     
+   ```csharp
     using Microsoft.Extensions.AI;
     using OllamaSharp;
     
@@ -66,7 +66,4 @@ The implementation focuses on simplicity and readability, using the IChatClient 
     // Output result and metadata
     Console.WriteLine($"Model response -> {response}");
     Console.WriteLine($"Tokens used: In={response.Usage?.InputTokenCount}, Out={response.Usage?.OutputTokenCount}");
-   
----
-## 🤝 Collaboration
-This project is built with a focus on teamwork and clean code standards. Whether on-site or remote, I believe in software that is easy to understand and maintain. Feel free to contribute or reach out with questions!
+
