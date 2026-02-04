@@ -4,7 +4,7 @@ This repository contains a C# Console application that demonstrates a modern int
 
 ## 🚀 Overview
 
-The goal of this project is to showcase how a Senior Software Engineer can implement a clean, decoupled AI client using standard Microsoft interfaces. By using `Microsoft.Extensions.AI`, the code remains flexible and ready for professional environments.
+The goal of this project is to showcase how to implement a clean, decoupled AI client using standard Microsoft interfaces. By using `Microsoft.Extensions.AI`, the code remains flexible and ready for professional environments.
 
 ### Tech Stack
 * **Language:** C# / .NET
